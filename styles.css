@@ -252,6 +252,7 @@ body{
   grid-template-columns: repeat(3,1fr);
   gap: 1rem;
   margin-top: 1rem;
+  width: 50px;
 }
 
 .exp-card {
