@@ -246,3 +246,17 @@ body{
 /* Subtle fade-in animations */
 [data-fade] {opacity:0;transform:translateY(8px);transition:opacity .7s ease, transform .7s ease}
 .in-view {opacity:1;transform:none}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.exp-card {
+  background: var(--surface);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
